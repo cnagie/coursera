@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:  #9fb6c3;
+ }
+
+ /** HEADER **/
+
+#header-nav {
+  background-color: #f9e9de;
+  border-radius: 0;
+  border: 0;
+  width:  100%;
+  }
+
+  nav .container {
+  margin-left: 15px;
+}  
+
+.navbar-header {
+  padding:  10px;
+
+} 
+
+ .navbar-brand h1 { /* Food LLC */
+  text-align: :left;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px #222; */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+ 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+
+#nav-list {
+   
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+#nav-list a {
+  color: black;
+  border:  1px solid black;
+  background-color:#EFBEB7;
+}
+
+#nav-list a:hover {
+  background-color: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+  border:  1px solid black;
+}
+
+.navbar-header button.navbar-toggle 
+{
+  clear:  both;
+  margin-top:  -40px;
+}
+
+
+/* END HEADER */
+
+/*MAIN BODY CONTENT*/
+
+.heading-page {
+   
+  color:  black;
+  margin-bottom: 15px;
+}
+
+section {
+  color:  black;
+  font-size: 20px;
+  background-color: #f9e9de;
+  padding: 15px;
+  margin:  20px;
+}
+
+#section-heading1 { 
+  color:black;
+  margin-bottom: 10px;
+}
+
+/*END MAIN BODY CONTENT*/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #collapsable-nav  .col-xs-12 {
+      width: 100%;
+
+  }
+
+  section {
+ 
+      margin: 20px;
+    
+  }
+
+}
